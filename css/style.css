@@ -386,6 +386,11 @@ h3.my-profession {
     text-align: center;
     position: relative;
 }
+.home .home-imgs {
+    text-align: center;
+    position: relative;
+    display: none;
+}
 
 .home-img::after {
     content: '';
@@ -1047,6 +1052,9 @@ h3.my-profession {
   
     .home .home-img {
       display: none;
+    }
+          .home .home-imgs {
+        display: flex;
     }
   }
   
